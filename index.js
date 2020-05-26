@@ -1,22 +1,5 @@
 const questions = [
 
-    "What is your GitHub username?",
-    "What is the title of your project?",
-    "Give a brief description of your project",
-    "List a table of contents",
-    "How to install this application",
-    "What is the usuage of this application?",
-    "License",
-    "Contributing information",
-    
-
-];
-
-var inquirer = require("inquirer");
-var fs = require("fs");
-
-inquirer
-    .prompt ([
     {
         type: "input",
         message: "What is you GitHub username?",
@@ -65,12 +48,30 @@ inquirer
         name: "license",
     },
 
-    ])
+];
 
-    
+const inquirer = require("inquirer");
+const fs = require("fs");
+
+function promptUser() {
+
+inquirer
+    .prompt (questions)
+
+}
+
+promptUser ();
 
 function writeToFile(fileName, data) {
+
+    fs.writeFile(fileName,data, "utf8", function(err) {
+        if(err) throw err;
+    });
+        console.log("Success!!!!")
+    
 }
+
+writeToFile()
 
 function init() {
 
