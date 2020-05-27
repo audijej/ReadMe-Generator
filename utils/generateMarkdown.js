@@ -11,7 +11,7 @@ console.log(data);
 ###${data.description}
 
 #Table of Contents
-###${data.tableContents}
+###${data.contents}
 
 #Application
 
