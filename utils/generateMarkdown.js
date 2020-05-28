@@ -5,26 +5,36 @@ console.log(data);
 
   return `
 
-# ${data.title}
+![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)
 
-# Description
-###${data.description}
 
-#Table of Contents
-###${data.contents}
+# _${data.title}_
 
-#Application
+## Description
 
-###${data.application}
+#### ${data.description}
 
-#Usage
-####${data.usage}
+## Table of Contents
 
-#Contributions
-###${data.contributions}
+#### ${data.contents}
 
-#License
-###${data.license}
+## Application
+
+#### ${data.application}
+
+## Usage
+
+#### ${data.usage}
+
+## Contributions
+
+#### ${data.contributions}
+
+## License
+
+### ${data.license}
+
+![alt text](http://github.com/${data.username})
 
 `;
 }
