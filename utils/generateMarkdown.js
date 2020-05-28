@@ -35,7 +35,7 @@ console.log(data);
 
 ### ${data.license}
 
-![alt text](http://github.com/${data.username})
+![alt text](https://github.com/${data.username}.png)
 
 `;
 }
