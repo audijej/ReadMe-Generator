@@ -5,7 +5,7 @@ console.log(data);
 
   return `
 
-![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)
+![Generic badge](https://img.shields.io/badge/<Learning to code>-<Practice>-<COLOR>.svg)
 
 
 # _${data.title}_

@@ -31,7 +31,7 @@ const questions = [
     {
         type: "input",
         message: "How to install this application",
-        name: "application-instructions",
+        name: "application",
     },
 
     {
