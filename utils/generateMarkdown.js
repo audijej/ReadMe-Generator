@@ -5,8 +5,9 @@ console.log(data);
 
   return `
 
-![Generic badge](https://img.shields.io/badge/<Learning to code>-<Practice>-<COLOR>.svg)
+![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
 
+:100:
 
 # _${data.title}_
 
