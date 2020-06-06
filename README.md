@@ -8,11 +8,11 @@
 
 ## Table of Contents
 
--Description
--Application/Installation
--Usage/How to use application
--Contributions
--MIT License
+-Description\
+-Application/Installation\
+-Usage/How to use application\
+-Contributions\
+-MIT License\
 
 ## Description
 
@@ -20,7 +20,7 @@ This is a simple to use and convenient application that allows users to generate
 
 ## Application
 
--npm install
+-npm install\
 -adding an image is recommended
 
 ## Usage
@@ -31,7 +31,7 @@ The user can use the application by simply running an npm install from their com
 
 ## Contributions
 
-[Kathryn]("https://github.com/katgrace0808")
+[Kathryn](https://github.com/katgrace0808)\
 [Katie](https://github.com/kaitekelly)
 
 ## License
