@@ -12,7 +12,7 @@
 -Application/Installation\
 -Usage/How to use application\
 -Contributions\
--MIT License\
+-MIT License
 
 ## Description
 
